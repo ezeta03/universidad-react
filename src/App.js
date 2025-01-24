@@ -1,10 +1,14 @@
 // filepath: /e:/universidad-react/src/App.js
-import React from 'react';
+import React from "react";
+import Form from "../src/form";
 
 function App() {
-    return (
-        <h1>Esto es un encabezado</h1>
-    );
+  return (
+    <div>
+      <h1>Formulario de Atenciones Psicológicas</h1>
+      <Form />
+    </div>
+  );
 }
 
 export default App;
